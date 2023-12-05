@@ -4,11 +4,11 @@ function App() {
   return (
     <div className='flex items-center justify-center h-screen'>
       <div className='w-64 h-96 rounded-lg '>
-        <div className='h-24 w-50 border-double border-4 border-x-pink border-t-pink bg-black rounded-lg '>
-          <div className='previous-operand border border-yellow h-10 text-green flex text-end'>456</div>
-          <div className='current-operand border border-yellow h-14 text-green text-end'>879</div>
+        <div className='h-24 w-50 border-double border-4 border-x-purple border-t-purple bg-black rounded-lg '>
+          <div className='previous-operand   h-10 text-green flex text-end'>456</div>
+          <div className='current-operand   h-14 text-green text-end'>879</div>
         </div>
-        <div className=' h-72 w-50 border-double border-4 border-pink bg-black rounded-lg'>
+        <div className=' h-72 w-50 border-double border-4 border-purple bg-black rounded-lg'>
           <div className='flex h-14 p-1 gap-1.5'>
             <button className='w-2/4 border border-turquoise text-yellow rounded-lg '>AC</button>
             <button className='w-1/4 border border-turquoise text-yellow rounded-lg'>DEL</button>

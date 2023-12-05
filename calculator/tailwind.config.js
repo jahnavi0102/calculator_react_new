@@ -20,10 +20,11 @@ module.exports = {
       'green': '#65dc98',
       'light-green': '#a0ffe3',
       'yellow': '#defe47',
-      'pale=orage': '#e96d5e',
+      'pale-orage': '#e96d5e',
       'dark-green': '#083e12',
       'light-neon-green': '#1afe49',
-      'black': '#000000'
+      'black': '#000000',
+      'purple': '#ff0099'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
