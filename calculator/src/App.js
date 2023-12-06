@@ -1,12 +1,13 @@
 import './index.css';
 
+
 function App() {
   return (
     <div className='flex items-center justify-center h-screen'>
       <div className='w-64 h-96 rounded-lg '>
         <div className='h-24 w-50 border-double border-4 border-x-purple border-t-purple bg-black rounded-lg '>
-          <div className='previous-operand   h-10 text-green flex text-end'>456</div>
-          <div className='current-operand   h-14 text-green text-end'>879</div>
+          <div className='flex justify-end items-end h-10 text-red mr-2'>456</div>
+          <div className='flex justify-end mr-3 items-end h-12 text-red text-end text-2xl '>879</div>
         </div>
         <div className=' h-72 w-50 border-double border-4 border-purple bg-black rounded-lg'>
           <div className='flex h-14 p-1 gap-1.5'>
